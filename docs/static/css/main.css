@@ -1,0 +1,52 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.header {
+  margin: 240px 0;
+}
+.app-buttons {
+  margin: 24px;
+}
+.app-button {
+  display: inline-block;
+  margin: 12px;
+}
+.span-text {
+  display: inline-block;
+  color: #000000;
+  margin: 12px;
+}
+.span-link {
+  color: #000000;
+}
+.github-logo {
+  height: 60px;
+}
+.feature {
+  margin: 160px 0;
+}
+.feature-title {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+.feature-text {
+  font-size: 24px;
+}
+.footer {
+  background: #1a1a1c;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 20px 0;
+}
+.footer-link {
+  color: #ffffff;
+}
+.footer-text {
+    display: inline-block;
+    color: #ffffff;
+    margin: 12px;
+}

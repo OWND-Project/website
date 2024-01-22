@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="OWNDプロジェクトは、個人が主体となるデジタルアイデンティティーの社会実装を目指し、よりトラストできるコミュニケーションを実現するための非営利プロジェクトです。"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="OWND Project" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="OWNDプロジェクトは、個人が主体となるデジタルアイデンティティーの社会実装を目指し、よりトラストできるコミュニケーションを実現するための非営利プロジェクトです。"
+    />
+    <meta property="og:url" content="https://www.ownd-project.com/" />
+    <meta property="og:site_name" content="OWND Project" />
+    <meta
+      property="og:image"
+      content="https://www.ownd-project.com/static/img/ogp.png"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://www.ownd-project.com/static/img/logo_only.png"
+    />
+    <link href="../../static/css/notosansjp.css" />
+    <link rel="stylesheet" href="../../static/css/policy.css" />
+    <title>OWND Messenger</title>
+  </head>
+  <body>
+    <script src="../../static/js/jquery-3.7.1.min.js"></script>
+    <script src="../../static/js/marked.min.js"></script>
+    <section id="policy" class="section">
+      <div class="container">
+        <div class="privacy-policy">
+          <script>
+            $.get(
+              "https://raw.githubusercontent.com/OWND-Project/terms/main/messenger/privacy-policy.md",
+              function (data) {
+                var md = marked.parse(data);
+                $(".privacy-policy").html(md);
+              }
+            );
+          </script>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

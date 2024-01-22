@@ -25,55 +25,8 @@
       href="https://www.ownd-project.com/static/img/logo_only.png"
     />
     <link href="static/css/notosansjp.css" />
+    <link rel="stylesheet" href="static/css/main.css" />
     <title>OWND Project</title>
-    <style>
-      body {
-        font-family: "Noto Sans JP", sans-serif;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-      }
-      .header {
-        margin: 240px 0;
-      }
-      .app-buttons {
-        margin: 24px;
-      }
-      .app-button {
-        display: inline-block;
-        margin: 12px;
-      }
-      .span-text {
-        display: inline-block;
-        margin: 12px;
-      }
-      .span-link {
-        color: #000000;
-      }
-      .github-logo {
-        height: 60px;
-      }
-      .feature {
-        margin: 160px 0;
-      }
-      .feature-title {
-        font-weight: bold;
-        font-size: 32px;
-        margin-bottom: 24px;
-      }
-      .feature-text {
-        font-size: 24px;
-      }
-      .footer {
-        background: #1a1a1c;
-        color: #ffffff;
-        font-size: 16px;
-        padding: 20px 0;
-      }
-      .footer-link {
-        color: #ffffff;
-      }
-    </style>
   </head>
   <body>
     <div class="header">
@@ -83,23 +36,28 @@
     <div class="feature">
       <div class="feature-title">OWND Wallet</div>
       <div class="app-buttons">
-        <a
-          href="https://play.google.com/store/apps/details?id=com.ownd_project.tw2023_wallet_android"
-          target="_blank"
-          rel="noopener"
-          class="app-button"
-        >
-          <img
-            class="app-button-google"
-            src="static/img/google-play.png"
-            alt="Get it on Google Play"
-          />
-        </a>
-        <img
-          class="app-button-apple"
-          src="static/img/app-store.png"
-          alt="Download on the App Store"
-        />
+        <div class="app-button">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.ownd_project.tw2023_wallet_android"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              class="app-button-google"
+              src="static/img/google-play.png"
+              alt="Get it on Google Play"
+            /><br /><span class="span-text">バージョン13以上</span></a
+          >
+        </div>
+        <div class="app-button">
+          <a href="" target="_blank" rel="noopener">
+            <img
+              class="app-button-apple"
+              src="static/img/app-store.png"
+              alt="Download on the App Store"
+            /><br /><span class="span-text">バージョン17.2以上</span></a
+          >
+        </div>
         <div>
           <span class="span-text"
             ><a href="wallet/tos/index.html" class="span-link"
@@ -142,7 +100,7 @@
           <p>OWND Project プライバシーポリシー</p></a
         ></span
       >
-      <span class="span-text">
+      <span class="footer-text">
         <p>お問合せ:&nbsp;support@ownd-project.com</p>
       </span>
       <p>©️ OWND Project</p>

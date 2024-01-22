@@ -1,0 +1,25 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+th {
+  border-bottom: 2px solid #1a1a1c;
+}
+td,
+th {
+  padding: 10px;
+}
+.privacy-policy {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  .privacy-policy {
+    width: 640px;
+    margin: 0 auto;
+  }
+}
